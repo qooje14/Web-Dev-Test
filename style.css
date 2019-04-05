@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:100');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*global*/
+header {
+    background-color: aqua;
+    min-height: 80px;
+   
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 90%;
+    margin: auto;  
+}
+
+header #container h1 {
+    margin: 0;
+    padding: 0;
+}
+
+header #h1 {
+    float: left;
+    font-size: 12px;
+    margin-top: 6px;
+}
+
+header nav {
+    float: right;
+    margin-top: 16px;
+    text-transform: uppercase;
+}
+
+nav li {
+    list-style: none;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: green;
+
+}
+
+.info img {
+
+    border-radius: 50%;
+    width: 6%;
+    height: 6%;
+    float: left;
+    height: 100%;
+    margin-left: 7%;
+}
+
+.info {
+    margin-bottom: 4%;
+}
+
+/*
+.info p{
+    width: 100%;
+    float: right;
+    margin-right:20%;
+    padding: 0;
+    margin: 0;
+}
+*/
+.name-label {
+    font-size: 15pt;
+    font-weight: thin;
+    font-family: "Raleway", sans-serif;
+    margin-bottom: 5px;
+}
+
+.name {
+    font-size: 20pt;
+    margin-bottom: 5px;
+}
+
+#body {
+     
+    margin-right: 30px;
+    float: right;
+    width: 85%;
+    height: 100%;
+
+}
+.content{
+    margin-top:40px;
+}   
